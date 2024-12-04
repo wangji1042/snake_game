@@ -1,0 +1,2 @@
+# snake_game
+一个基于Elixir语言和Phoenix框架开发的小游戏
