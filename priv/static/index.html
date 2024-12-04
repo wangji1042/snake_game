@@ -1,0 +1,36 @@
+<!-- assets/static/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>贪吃蛇游戏</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+      }
+      canvas {
+        border: 1px solid black;
+      }
+      #score {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <div id="score">Score: 0</div>
+
+    <script src="./js/phoenix@1.7.14.js"></script>
+    <script src="./js/game.js"></script>
+  </body>
+</html>
